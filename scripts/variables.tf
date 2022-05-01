@@ -32,6 +32,7 @@ variable "dev-web-subnet-prefix" {
   default = "192.168.182.0/24"
 }
 
+#Change it to number of VMs you want 
 variable "node_count" {
   default = "10"
 }
